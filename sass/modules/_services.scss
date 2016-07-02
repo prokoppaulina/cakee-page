@@ -1,0 +1,38 @@
+@import "../base/_variables";
+
+/* "Our services" section */
+
+section {
+  &#services {
+    background: $services-bg;
+    position: relative;
+    background-size: cover;
+    height: 100%;
+
+    .services-content {
+      margin-right: 0;
+      padding-left: 100px;
+
+      h2 {
+        width: 90%;
+        color: $bright-text;
+        position: absolute;
+        top: 30%;
+        left: 5%;
+        vertical-align: middle;
+        padding-top: 10%;
+      }
+
+      img {
+        margin-top: 20px;
+        //height: 530px;
+        //width: 470px;
+      }
+    }
+
+    .btn-group-vertical {
+      padding-top: 20% !important;
+      border-radius: 0 0 0 0;
+    }
+  }
+}

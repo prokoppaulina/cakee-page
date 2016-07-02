@@ -1,0 +1,18 @@
+@import "../base/_variables.scss";
+@import "_posts.scss";
+
+/*Blog section*/
+section {
+  &#blog {
+    background: $blog-bg;
+    color: $bright-text;
+
+    .posts {
+      text-align: center;
+    }
+  }
+
+  h2 {
+    padding-bottom: 3%;
+  }
+}

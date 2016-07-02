@@ -1,0 +1,24 @@
+@import "../base/_variables.scss";
+
+footer {
+  background: $footer-bg;
+  position: relative;
+
+  .container {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    color: $grey-text;
+
+    .reserved {
+      padding-top: 7px;
+    }
+
+    .signature {
+      padding-top: 7px;
+      span {
+        color: $span-color;
+      }
+    }
+
+  }
+}

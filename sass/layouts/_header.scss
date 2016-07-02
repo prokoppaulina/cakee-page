@@ -1,0 +1,35 @@
+@import "../base/_variables.scss";
+
+.intro {
+  position: relative;
+  color: $dark-text;
+  height: 100%;
+  background-image: url('../images/home.png');
+  background-color: $light-bg;
+  background-size: cover;
+  padding-left: 8%;
+  padding-right: 8%;
+
+  .container {
+    position: relative;
+    height: 100%;
+    padding-top: 25%;
+    padding-bottom: 30%;
+
+  }
+
+  h1 {
+    padding-bottom: 3%;
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+  }
+
+  p {
+    padding-bottom: 5%;
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+  }
+
+}

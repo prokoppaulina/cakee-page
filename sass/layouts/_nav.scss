@@ -1,0 +1,71 @@
+@import "../base/_variables.scss";
+
+nav {
+  padding-left: 8%;
+  padding-right: 8%;
+}
+
+.nav {
+  transition-duration: 1s;
+}
+
+.navbar {
+
+  .logo {
+    color: $dark-text;
+  }
+
+  #myNavbar .navbar-nav li a {
+    color: $dark-text;
+  }
+
+}
+
+.navbar-default {
+  padding-top: 2%;
+  padding-bottom: 2%;
+  transition-duration: 1s;
+
+  .navbar-nav>.active>a {
+    outline: none;
+    opacity: 1;
+    border-top: 3px solid $overline-color;
+    transition: all 5s;
+  }
+}
+
+.navbar-fixed-top {
+  transition-duration: 1s;
+}
+
+.navbar-toggle {
+  background-color: $bright-text;
+  .icon-bar {
+    background-color: white;
+    opacity: 1;
+    transition: background-color 0.5 ease-out, opacity 0.5 ease-out;
+  }
+  &:hover,
+  &:focus {
+    background-color: $bright-text;
+  }
+}
+
+li.active,
+li.active:focus,
+li.active:hover,
+li.active:active {
+  outline: none;
+  opacity: 1;
+  border-top: 3px solid $overline-color;
+}
+
+li.active a,
+li.active:focus a,
+li.active:hover a,
+li.active:active a {
+  outline: none;
+  opacity: 1;
+  border-top: 3px solid $overline-color;
+}
+
