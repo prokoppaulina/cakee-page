@@ -1,0 +1,41 @@
+@import "../base/_variables.scss";
+
+/*About section*/
+
+section {
+  padding-left: 3%;
+  padding-right: 8%;
+
+  &#about {
+    position: relative;
+    background: $about-bg;
+    background-size: cover;
+    height: 100%;
+    color: $bright-text;
+
+    .container {
+      position: relative;
+      padding-top: 3%;
+      padding-bottom: 3%;
+    }
+
+    img {
+      width: 90%;
+    }
+
+    .about-content {
+      padding-top: 10%;
+      padding-bottom: 10%;
+    }
+
+    p {
+      br {
+        line-height: 250%;
+      }
+    }
+
+    h2 {
+      padding-bottom: 2%;
+    }
+  }
+}

@@ -1,0 +1,135 @@
+/*Fonts*/
+
+body {
+  font-family: 'Raleway';
+  font-size: 20px;
+  font-weight: 300;
+}
+
+p {
+  font-family: 'Raleway';
+  font-size: 16px;
+  font-weight: 300;
+}
+
+h1 {
+  font-family: 'Raleway';
+  font-size: 60px;
+  font-weight: 900;
+}
+
+h2 {
+    font-family: 'Raleway';
+    font-size: 80px;
+    font-weight: 700;
+}
+
+h3 {
+  font-family: 'Raleway';
+  font-size: 40px;
+  font-weight: 700;
+}
+
+h4 {
+  font-family: 'Raleway';
+  font-size: 17px;
+  font-weight: 700;
+}
+
+h5 {
+  font-family: 'Raleway';
+  font-size: 20px;
+  font-weight: 300px;
+}
+
+.logo {
+  font-family: 'Pacifico';
+  font-size: 50px;
+}
+
+.navbar-nav {
+  font-family: 'Raleway';
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.nav li a {
+  font-family: 'Raleway';
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.btn {
+  font-family: 'Raleway';
+  font-size: 20px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+.btn-services {
+  font-family: 'Raleway';
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: none;
+}
+
+.reserved {
+  font-family: 'Raleway';
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.logoBottom {
+  font-family: 'Pacifico';
+  font-size: 25px;
+}
+
+.signature {
+  font-family: 'Raleway';
+  font-size: 15px;
+  font-weight: 300;
+
+  span {
+    font-weight: 700 !important;
+  }
+}
+
+.post-signature {
+  font-family: 'Raleway';
+  font-size: 13px;
+  font-weight: 300;
+}
+
+.post-title {
+  font-family: 'Raleway';
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.post-date {
+  font-family: 'Raleway';
+
+  .day {
+    font-size: 32px;
+    font-weight: 700;
+  }
+
+  .month {
+    font-size: 21px;
+    font-weight: 900;
+  }
+}
+
+.form-group {
+  font-family: 'Raleway';
+  font-weight: 300;
+  font-size: 15px;
+}
+
+input:focus, textarea:focus {
+  font-family: 'Raleway';
+  font-weight: 700;
+  font-size: 15px;
+}

@@ -1,0 +1,255 @@
+html, body {
+  overflow-x: hidden;
+}
+
+@media(max-width:768px) {
+
+  .navbar-default {
+    background-color: $light-bg;
+    color: $dark-text;
+    padding: 25px 0 25px;
+    -webkit-transition: padding 0.3s;
+    -moz-transition: padding 0.3s;
+    transition: padding 0.3s;
+    border: none;
+
+    .navbar-nav > .active {
+      background: $hover-color;
+    }
+  }
+
+  .navbar-default .navbar-shrink {
+    color: $dark-text;
+    padding: 10px 0;
+    width: 250px;
+  }
+
+  .open .dropdown-toggle {
+    color: $dark-text;
+    border: none;
+    outline: none;
+  }
+
+  .navbar-collapse {
+    background-color: $light-bg;
+    color: $dark-text;
+    text-decoration: none;
+  }
+
+  .navbar-toggle {
+    text-decoration: none;
+    .icon-bar {
+      background-color: white;
+    }
+  }
+
+  .nav {
+    li {
+      height: 100%;
+      //padding-left: 10px;
+      a {
+        text-align: center;
+        letter-spacing: 1px;
+        position: relative;
+        height: 100%;
+        width: 100%;
+        }
+      }
+    }
+}
+
+/*body, sections in small devices*/
+
+@media(max-width: 768px) {
+
+  body {
+
+    h2 {
+      font-size: 60px;
+    }
+
+    p {
+      text-align: center;
+    }
+  }
+
+  header{
+    .container {
+      text-align: center;
+
+      h1 {
+        text-align: center;
+        font-size: 50px;
+      }
+
+      p {
+        text-align: center;
+      }
+    }
+
+    padding-top: 30px;
+  }
+
+  section {
+
+    &#about {
+      h2 {
+        text-align: center;
+      }
+    }
+
+    &#services {
+      .btn-services {
+        height: 80px;
+        width: 250px !important;
+
+        a {
+          font-size: 15px;
+          float: left;
+          text-align: center;
+        }
+
+        .img-services {
+          position: relative;
+          display: block;
+          width: 40px;
+          height: 40px;
+          float: right;
+          -webkit-background-repeat: no-repeat;
+          -moz-background-repeat: no-repeat;
+          -o-background-repeat: no-repeat;
+          background-repeat: no-repeat;
+          -webkit-background-position: center;
+          -moz-background-position: center;
+          -o-background-position: center;
+          background-position: center;
+          -webkit-background-size: cover;
+          -moz-background-size: cover;
+          -o-background-size: cover;
+          background-size: cover;
+        }
+      }
+    }
+
+    .services-content {
+      text-align: center;
+
+      h2 {
+        color: $bright-text;
+        font-size: 50px;
+        padding-bottom: 100px;
+        top: 50%;
+        left: 50%;
+        margin-top: -17%;
+      }
+
+      img {
+        top: 50%;
+        left: 50%;
+        width: 100%;
+        height: 100%;
+        //margin-top: -10%;
+        margin-left: -20%;
+      }
+    }
+
+    &#gallery {
+      .container {
+        padding-bottom: 40px;
+      }
+    }
+
+    &#subscribe {
+      .layer {
+        background-color: rgba(255, 255, 255, 0.7);
+        position: relative;
+        padding: 0 0 0 0;
+        margin: 0 0 0 0;
+      }
+      .container {
+        text-align: center;
+      }
+
+      h3 {
+        text-align: center;
+      }
+
+      p {
+        text-align: center;
+      }
+
+      input[type='email'] {
+        margin-bottom: 20px;
+      }
+    }
+
+    &#blog {
+
+      .post {
+        display: inline-block;
+        position: relative;
+        width: 230px;
+        height: 180px;
+        margin: 20px auto;
+        overflow: hidden;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        margin-right: 0;
+      }
+
+      .post-date {
+        height: 40px;
+        width: 40px;
+        display: block;
+        text-align: center;
+        line-height: 0.8em;
+        top: 5%;
+        left: 7%;
+        padding-top: 2px;
+        padding-left: 2px;
+        padding-right: 2px;
+        background-color: $date-bg;
+        position: absolute;
+        border-radius: 5px;
+
+        .day {
+          font-size: 24px;
+        }
+
+        .month {
+          font-size: 15px;
+        }
+      }
+
+      .post-title {
+        text-align: left;
+        position: relative;
+        padding-top: 35%;
+        padding-left: 10px;
+        font-size: 15px;
+      }
+
+      .post-signature {
+        text-align: left;
+        position: relative;
+        padding-top: 35%;
+        font-size: 10px;
+      }
+    }
+  }
+
+  footer {
+    .reserved {
+      font-size: 12px;
+      padding-bottom: 20px;
+    }
+
+    .logoBottom {
+      text-align: center;
+    }
+
+    .signature {
+      text-align: center;
+    }
+  }
+}

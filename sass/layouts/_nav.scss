@@ -1,0 +1,58 @@
+@import "../base/_variables.scss";
+
+nav {
+  padding-left: 8%;
+  padding-right: 8%;
+}
+
+.nav {
+  transition-duration: 1s;
+}
+
+.navbar {
+
+  .logo {
+    color: $dark-text;
+  }
+
+  #myNavbar .navbar-nav li a {
+    color: $dark-text;
+    background-color: transparent;
+  }
+
+}
+
+.navbar-default {
+  padding-top: 2%;
+  padding-bottom: 2%;
+  transition-duration: 1s;
+  background-color: transparent;
+  border: none;
+
+  .navbar-collapse {
+    li:hover {
+      background-color: $hover-color;
+    }
+  }
+}
+
+.navbar-fixed-top {
+  transition-duration: 1s;
+}
+
+.navbar-toggle {
+  background-color: $bright-text;
+  .icon-bar {
+    background-color: white;
+  }
+}
+
+li.active a,
+li.active:focus a,
+li.active:hover a,
+li.active:active a {
+  //background-color: $light-bg;
+  outline: none;
+  border-top: 3px solid $overline-color;
+}
+
