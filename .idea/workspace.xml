@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6e475364-3d8c-49d2-a103-90fdf8f893ed" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cakee-page" afterPath="$PROJECT_DIR$/cakee-page" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/Challenge2.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cakee-page" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Index.html" afterPath="$PROJECT_DIR$/Index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/main.js" afterPath="$PROJECT_DIR$/js/main.js" />
     </list>
     <ignored path="Challenge2.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,7 +28,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="455">
@@ -96,10 +98,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_nav.scss" pinned="false" current-in-tab="false">
+      <file leaf-file-name="_nav.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sass/layouts/_nav.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-361">
+            <state relative-caret-position="170">
               <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
               <folding />
             </state>
@@ -373,15 +375,15 @@
       <workItem from="1465490958755" duration="599000" />
       <workItem from="1467212141708" duration="2121000" />
       <workItem from="1467450801524" duration="2347000" />
-      <workItem from="1467453625309" duration="16904000" />
+      <workItem from="1467453625309" duration="18030000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="158592000" />
+    <option name="totallyTimeSpent" value="159718000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16815476" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -750,14 +752,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sass/layouts/_nav.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-361">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sass/layouts/_media.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -782,6 +776,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="455">
+          <caret line="279" column="37" selection-start-line="279" selection-start-column="37" selection-end-line="279" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
@@ -790,10 +792,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Index.html">
+    <entry file="file://$PROJECT_DIR$/sass/layouts/_nav.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="455">
-          <caret line="279" column="37" selection-start-line="279" selection-start-column="37" selection-end-line="279" selection-end-column="37" />
+        <state relative-caret-position="170">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding />
         </state>
       </provider>
