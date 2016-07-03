@@ -2,9 +2,10 @@ html, body {
   overflow-x: hidden;
 }
 
-@media(min-width:768px) {
+@media(max-width:768px) {
 
   .navbar-default {
+    background-color: $light-bg;
     color: $dark-text;
     padding: 25px 0 25px;
     -webkit-transition: padding 0.3s;
@@ -12,62 +13,49 @@ html, body {
     transition: padding 0.3s;
     border: none;
 
-    .navbar-nav > .active > a {
-      background-color: transparent;
-      transition: all 5s;
-      outline: none;
-      opacity: 1;
-      border-top: 3px solid $overline-color;
+    .navbar-nav > .active {
+      background: $hover-color;
     }
   }
 
-  .navbar-default.navbar-shrink {
+  .navbar-default .navbar-shrink {
     color: $dark-text;
     padding: 10px 0;
+    width: 250px;
   }
 
   .open .dropdown-toggle {
     color: $dark-text;
-    background-color: darken($light-bg, 10%);
     border: none;
     outline: none;
   }
 
   .navbar-collapse {
+    background-color: $light-bg;
     color: $dark-text;
     text-decoration: none;
   }
 
   .navbar-toggle {
-    background-color: $dark-text;
     text-decoration: none;
     .icon-bar {
       background-color: white;
-    }
-    &:hover,
-    &:focus {
-      text-decoration: none;
-      background-color: $dark-text;
     }
   }
 
   .nav {
     li {
+      height: 100%;
+      //padding-left: 10px;
       a {
+        text-align: center;
         letter-spacing: 1px;
-        color: $dark-text;
         position: relative;
         height: 100%;
         width: 100%;
-        &:hover,
-        &:focus {
-          color: $dark-text;
-          transition: all 5s;
-          text-decoration: none;
         }
       }
     }
-  }
 }
 
 /*body, sections in small devices*/

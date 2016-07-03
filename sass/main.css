@@ -600,17 +600,17 @@ nav {
 .navbar .logo {
   color: #262626; }
 .navbar #myNavbar .navbar-nav li a {
-  color: #262626; }
+  color: #262626;
+  background-color: transparent; }
 
 .navbar-default {
   padding-top: 2%;
   padding-bottom: 2%;
-  transition-duration: 1s; }
-  .navbar-default .navbar-nav > .active > a {
-    outline: none;
-    opacity: 1;
-    border-top: 3px solid #ff6033;
-    transition: all 5s; }
+  transition-duration: 1s;
+  background-color: transparent;
+  border: none; }
+  .navbar-default .navbar-collapse li:hover {
+    background-color: rgba(255, 96, 51, 0.2); }
 
 .navbar-fixed-top {
   transition-duration: 1s; }
@@ -618,79 +618,58 @@ nav {
 .navbar-toggle {
   background-color: white; }
   .navbar-toggle .icon-bar {
-    background-color: white;
-    opacity: 1;
-    transition: background-color 0.5 ease-out, opacity 0.5 ease-out; }
-  .navbar-toggle:hover, .navbar-toggle:focus {
     background-color: white; }
-
-li.active,
-li.active:focus,
-li.active:hover,
-li.active:active {
-  outline: none;
-  opacity: 1;
-  border-top: 3px solid #ff6033; }
 
 li.active a,
 li.active:focus a,
 li.active:hover a,
 li.active:active a {
   outline: none;
-  opacity: 1;
   border-top: 3px solid #ff6033; }
 
 html, body {
   overflow-x: hidden; }
 
-@media (min-width: 768px) {
+@media (max-width: 768px) {
   .navbar-default {
+    background-color: white;
     color: #262626;
     padding: 25px 0 25px;
     -webkit-transition: padding 0.3s;
     -moz-transition: padding 0.3s;
     transition: padding 0.3s;
     border: none; }
-    .navbar-default .navbar-nav > .active > a {
-      background-color: transparent;
-      transition: all 5s;
-      outline: none;
-      opacity: 1;
-      border-top: 3px solid #ff6033; }
+    .navbar-default .navbar-nav > .active {
+      background: rgba(255, 96, 51, 0.2); }
 
-  .navbar-default.navbar-shrink {
+  .navbar-default .navbar-shrink {
     color: #262626;
-    padding: 10px 0; }
+    padding: 10px 0;
+    width: 250px; }
 
   .open .dropdown-toggle {
     color: #262626;
-    background-color: #e6e6e6;
     border: none;
     outline: none; }
 
   .navbar-collapse {
+    background-color: white;
     color: #262626;
     text-decoration: none; }
 
   .navbar-toggle {
-    background-color: #262626;
     text-decoration: none; }
     .navbar-toggle .icon-bar {
       background-color: white; }
-    .navbar-toggle:hover, .navbar-toggle:focus {
-      text-decoration: none;
-      background-color: #262626; }
 
-  .nav li a {
-    letter-spacing: 1px;
-    color: #262626;
-    position: relative;
-    height: 100%;
-    width: 100%; }
-    .nav li a:hover, .nav li a:focus {
-      color: #262626;
-      transition: all 5s;
-      text-decoration: none; } }
+  .nav li {
+    height: 100%; }
+    .nav li a {
+      text-align: center;
+      letter-spacing: 1px;
+      position: relative;
+      height: 100%;
+      width: 100%; } }
 /*body, sections in small devices*/
 @media (max-width: 768px) {
   body h2 {

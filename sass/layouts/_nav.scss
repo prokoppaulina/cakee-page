@@ -17,6 +17,7 @@ nav {
 
   #myNavbar .navbar-nav li a {
     color: $dark-text;
+    background-color: transparent;
   }
 
 }
@@ -25,12 +26,13 @@ nav {
   padding-top: 2%;
   padding-bottom: 2%;
   transition-duration: 1s;
+  background-color: transparent;
+  border: none;
 
-  .navbar-nav>.active>a {
-    outline: none;
-    opacity: 1;
-    border-top: 3px solid $overline-color;
-    transition: all 5s;
+  .navbar-collapse {
+    li:hover {
+      background-color: $hover-color;
+    }
   }
 }
 
@@ -42,30 +44,15 @@ nav {
   background-color: $bright-text;
   .icon-bar {
     background-color: white;
-    opacity: 1;
-    transition: background-color 0.5 ease-out, opacity 0.5 ease-out;
   }
-  &:hover,
-  &:focus {
-    background-color: $bright-text;
-  }
-}
-
-li.active,
-li.active:focus,
-li.active:hover,
-li.active:active {
-  outline: none;
-  opacity: 1;
-  border-top: 3px solid $overline-color;
 }
 
 li.active a,
 li.active:focus a,
 li.active:hover a,
 li.active:active a {
+  //background-color: $light-bg;
   outline: none;
-  opacity: 1;
   border-top: 3px solid $overline-color;
 }
 
